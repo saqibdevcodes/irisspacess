@@ -173,15 +173,15 @@
             <div class="space-y-3 text-sm text-gray-700">
               <div>
                 <p class="font-semibold text-gray-900">Address:</p>
-                <p>123 Business District<br />City Center, State 12345</p>
+                <p>60D Main Broadway<br />DHA Phase 8, Lahore</p>
               </div>
               <div>
                 <p class="font-semibold text-gray-900">Phone:</p>
-                <p>+1 (555) 123-4567</p>
+                <p>+42 368 123 456</p>
               </div>
               <div>
                 <p class="font-semibold text-gray-900">Email:</p>
-                <p>info@iris-spaces.com</p>
+                <p>info@irisspacespk.com</p>
               </div>
             </div>
 
@@ -224,7 +224,7 @@
         <!-- Footer Bottom -->
         <div class="border-t border-gray-200 mt-8 pt-8 text-center">
           <p class="text-sm text-gray-600">
-            © 2024 Iris Spaces. All rights reserved.
+            © {{ new Date().getFullYear() }} Iris Spaces. All rights reserved.
           </p>
         </div>
       </div>

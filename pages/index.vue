@@ -1053,7 +1053,7 @@
           <div
             class="backdrop-blur-sm bg-white/10 rounded-2xl p-6 border border-white/20"
           >
-            <div class="text-4xl mb-3">📍</div>
+            
             <h3 class="font-bold text-xl mb-2">Prime Location</h3>
             <p class="text-gray-200 text-sm">
               Easy access in the heart of the city
@@ -1062,7 +1062,7 @@
           <div
             class="backdrop-blur-sm bg-white/10 rounded-2xl p-6 border border-white/20"
           >
-            <div class="text-4xl mb-3">⚡</div>
+            
             <h3 class="font-bold text-xl mb-2">Fast Setup</h3>
             <p class="text-gray-200 text-sm">
               Move in ready, start working today
@@ -1071,7 +1071,7 @@
           <div
             class="backdrop-blur-sm bg-white/10 rounded-2xl p-6 border border-white/20"
           >
-            <div class="text-4xl mb-3">🤝</div>
+            
             <h3 class="font-bold text-xl mb-2">Supportive Community</h3>
             <p class="text-gray-200 text-sm">
               Network with amazing professionals
