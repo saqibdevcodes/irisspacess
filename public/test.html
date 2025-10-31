@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Test - Iris Spaces</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .image-test { margin: 20px 0; padding: 20px; border: 2px solid #ccc; }
+        img { max-width: 400px; height: auto; border: 1px solid #ddd; }
+        .error { color: red; }
+        .success { color: green; }
+    </style>
+</head>
+<body>
+    <h1>Iris Spaces - Image Test Page</h1>
+    <p>Testing all images in the public/images folder...</p>
+    
+    <div class="image-test">
+        <h3>office-space-1.jpg (340KB - REAL IMAGE ✓)</h3>
+        <img src="/images/office-space-1.jpg" alt="Office Space 1" onerror="this.parentElement.innerHTML += '<p class=error>Failed to load!</p>'">
+    </div>
+    
+    <div class="image-test">
+        <h3 class="error">consultation-room.jpg (545 bytes - TOO SMALL/CORRUPT ✗)</h3>
+        <img src="/images/consultation-room.jpg" alt="Consultation Room" onerror="this.parentElement.innerHTML += '<p class=error>Failed to load!</p>'">
+    </div>
+    
+    <div class="image-test">
+        <h3 class="error">coworking-space.jpg (544 bytes - TOO SMALL/CORRUPT ✗)</h3>
+        <img src="/images/coworking-space.jpg" alt="Coworking Space" onerror="this.parentElement.innerHTML += '<p class=error>Failed to load!</p>'">
+    </div>
+    
+    <div class="image-test">
+        <h3 class="error">event-space.jpg (539 bytes - TOO SMALL/CORRUPT ✗)</h3>
+        <img src="/images/event-space.jpg" alt="Event Space" onerror="this.parentElement.innerHTML += '<p class=error>Failed to load!</p>'">
+    </div>
+    
+    <div class="image-test">
+        <h3 class="error">hero-banner.jpg (785 bytes - TOO SMALL/CORRUPT ✗)</h3>
+        <img src="/images/hero-banner.jpg" alt="Hero Banner" onerror="this.parentElement.innerHTML += '<p class=error>Failed to load!</p>'">
+    </div>
+    
+    <div class="image-test">
+        <h3 class="error">meeting-room.jpg (540 bytes - TOO SMALL/CORRUPT ✗)</h3>
+        <img src="/images/meeting-room.jpg" alt="Meeting Room" onerror="this.parentElement.innerHTML += '<p class=error>Failed to load!</p>'">
+    </div>
+    
+    <div class="image-test">
+        <h3 class="error">private-office.jpg (542 bytes - TOO SMALL/CORRUPT ✗)</h3>
+        <img src="/images/private-office.jpg" alt="Private Office" onerror="this.parentElement.innerHTML += '<p class=error>Failed to load!</p>'">
+    </div>
+    
+    <div class="image-test">
+        <h3 class="error">research-lab.jpg (540 bytes - TOO SMALL/CORRUPT ✗)</h3>
+        <img src="/images/research-lab.jpg" alt="Research Lab" onerror="this.parentElement.innerHTML += '<p class=error>Failed to load!</p>'">
+    </div>
+    
+    <div class="image-test">
+        <h3 class="error">virtual-office.jpg (542 bytes - TOO SMALL/CORRUPT ✗)</h3>
+        <img src="/images/virtual-office.jpg" alt="Virtual Office" onerror="this.parentElement.innerHTML += '<p class=error>Failed to load!</p>'">
+    </div>
+    
+    <hr>
+    <h2>SOLUTION:</h2>
+    <p><strong>Only office-space-1.jpg is a real image!</strong></p>
+    <p>All other images are too small (540-785 bytes) - they are likely empty placeholder files.</p>
+    <p>You need to replace them with real JPG images (at least 50KB+ each).</p>
+    
+    <h3>Quick Fix for Testing:</h3>
+    <p>For now, I'll update the site to use office-space-1.jpg for all sections so you can see the content.</p>
+</body>
+</html>
+
